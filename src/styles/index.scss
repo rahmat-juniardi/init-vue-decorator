@@ -1,0 +1,26 @@
+@import "variables";
+@import "utils";
+
+// SF Pro Text Fonts
+@font-face {
+  font-family: 'SF-Pro-Text';
+  src: local('SF-Pro-Text-Regular'),
+  url('./fonts/SF-Pro/text/SF-Pro-Text-Regular.otf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'SF-Pro-Text';
+  src: local('SF-Pro-Text-Medium'),
+  url('./fonts/SF-Pro/text/SF-Pro-Text-Medium.otf') format('truetype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'SF-Pro-Text';
+  src: local('SF-Pro-Text-SemiBold'),
+  url('./fonts/SF-Pro/text/SF-Pro-Text-Semibold.otf') format('truetype');
+  font-weight: 600;
+}
+
+body {
+  font-family: $font-family-sans-serif;
+}
